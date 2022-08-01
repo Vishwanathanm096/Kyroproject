@@ -42,7 +42,7 @@ public class kyro {
 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//span[text()='Dashboard']")).click();
-		driver.findElement(By.xpath("//div[normalize-space()='Kyro Version 1.0']")).click();
+		driver.findElement(By.xpath("//div[normalize-space()='Kyro Version 4.0']")).click();
 		driver.findElement(By.cssSelector("button[texttransform ='none']")).click();
 
 	}
